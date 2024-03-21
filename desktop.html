@@ -5,46 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rental Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-<body class="bg-gray-50">
+<body>
     <!-- Navigation -->
-    <nav class="bg-white px-4 py-2 shadow-md">
+    <nav class="px-4 py-2 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center">
-                <img src="https://placehold.co/50x50" alt="CarBank logo" class="mr-3">
+                <img src="logo.jpg" alt="CarBank logo" class="mr-3">
                 <span class="font-bold text-xl">CarBank</span>
             </div>
             <div class="hidden md:flex space-x-4">
-                <a href="#" class="text-gray-600">Destination</a>
-                <a href="#" class="text-gray-600">Why Choose us</a>
-                <a href="#" class="text-gray-600">How it work</a>
-                <a href="#" class="text-gray-600">Manage Account</a>
-                <a href="#" class="text-gray-600">Sign in</a>
-                <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded shadow">Sign up</a>
+                <a href="#aboutus" class="text-black-600 font-bold">About Us</a>
+                <a href="#what-we-do" class="text-black-600 font-bold">What we do</a>
+                <a href="#how-it-works" class="text-black-600 font-bold">How it Works</a>
+                <a href="#why-choose-us" class="text-black-600 font-bold">Why Choose Us</a>
+                <a href="#popular-deals" class="text-black-600 font-bold">Popular deals</a>
+                <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded shadow">Sign In</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <div class="relative bg-blue-600">
-        <div class="container mx-auto px-4 py-20 text-white">
+    <div class="relative">
+        <div class="container mx-auto px-4 py-20 text-black">
             <div class="w-full md:w-1/2">
-                <h1 class="text-4xl font-bold">Find, book and rent a car <span class="text-red-300">Easily</span></h1>
+                <h1 class="text-4xl font-bold">Find, book and rent a car <span class="text-blue-700">Easily</span></h1>
                 <p class="mt-4">Get a car wherever and whenever you need it with your device.</p>
                 <div class="mt-8 flex justify-start space-x-4">
-                    <button class="bg-white text-gray-800 px-6 py-2 rounded shadow">Owner</button>
-                    <button class="bg-red-300 text-white px-6 py-2 rounded shadow">Renter</button>
+                    <button class="bg-blue-700 font-bold text-white-800 px-6 py-2 rounded shadow">Owner</button>
+                    <button class="bg-blue-700 font-bold text-white-800 px-6 py-2 rounded shadow">Renter</button>
                 </div>
             </div>
             <div class="absolute bottom-0 right-0 w-full md:w-1/2">
-                <img src="https://placehold.co/500x300" alt="Red car image" class="hidden md:block">
+                <img src="thar.png" alt="Red car image" class="hidden md:block">
             </div>
         </div>
     </div>
 
     <!-- Search Section -->
-    <div class="bg-white shadow-md">
+    <div class="shadow-md">
+        <br>
         <div class="container mx-auto px-4 py-6">
             <div class="flex flex-wrap justify-between items-center space-y-4 md:space-y-0">
                 <div class="w-full md:w-1/3">
@@ -67,81 +69,94 @@
     </div>
 
     <!-- About Us Section -->
-    <div class="container mx-auto px-4 py-20">
-        <h2 class="text-3xl font-bold text-center text-gray-800">About us</h2>
-        <p class="mt-6 text-gray-600 text-center">
-            At Carbank, we are driven by a passion for connecting individuals seamlessly in the dynamic world of car transactions. Established with the vision of creating a unified platform for both buyers and sellers, Carbank is not just a car rental service; it's a company that thrives on shared experiences and automotive enthusiasm. Our commitment is to provide a user-friendly space where buyers can effortlessly find the perfect car for their special occasions and sellers can showcase their vehicles to a discerning audience. With a foundation built on trust, transparency, and a love for the open road, Carbank is your trusted partner in making every car-related endeavor a memorable and gratifying experience. Join us in shaping the future of car transactions, where every connection is a step towards a new journey. Welcome to Carbank - where your drive begins.
+    <div id='aboutus' class="container mx-auto px-4 py-20">
+        <div class="text-center">
+            <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded mb-10">ABOUT US</button>
+        </div>
+        <div class="flex flex-wrap justify-center space-x-0 md:space-x-10">
+            <div class="w-full md:w-3/4 p-4">
+        <p class="mt-6 font-medium text-black-500 text-justify">
+            At Carbank, we believe in the power of seamless connections and shared experiences within the dynamic world of car transactions. Our dedicated team is driven by a passion for delivering unparalleled service and fostering a community built on automotive enthusiasm. We understand that every car transaction is more than just a transaction; it's an opportunity to embark on new journeys and create lasting memories.
+<br><br>
+With a focus on innovation and customer-centricity, we continuously strive to enhance our platform to meet the evolving needs of our users. Whether you're buying, selling, or renting a car, Carbank offers a personalized and intuitive experience tailored to your preferences. We take pride in our commitment to transparency, integrity, and reliability, ensuring that every interaction with Carbank exceeds your expectations.
+<br><br>
+Join us on this exciting journey as we revolutionize the way people buy, sell, and experience cars. At Carbank, your drive begins with us, and we look forward to being your trusted partner every step of the way.
         </p>
     </div>
+</div>
+</div>
 
     <!-- What We Do Section -->
-    <div class="bg-gray-100">
-        <div class="container mx-auto px-4 py-20">
-            <h2 class="text-3xl font-bold text-center text-gray-800">What We Do</h2>
+        <div id='what-we-do' class="container mx-auto px-4 py-20">
+            <div class="text-center">
+                <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded mb-10">WHAT WE DO</button>
+            </div>
             <div class="mt-10 flex flex-wrap justify-center space-x-0 md:space-x-10">
-                <div class="w-full md:w-1/3 p-4">
+                <div class="w-full md:w-1/4 p-4">
                     <div class="p-6 bg-white rounded-lg shadow-xl">
                         <div class="flex items-center justify-center">
                             <i class="fas fa-store-alt text-blue-500 text-3xl"></i>
                         </div>
                         <h3 class="mt-5 text-xl font-bold text-gray-800">Unified Marketplace</h3>
-                        <p class="mt-3 text-gray-600">Carbank serves as a unified marketplace for both buyers and sellers, providing a centralized platform where individuals can effortlessly connect to buy, rent, or sell their vehicles.</p>
+                        <p class="mt-3 text-gray-600">Carbank serves as a unified marketplace for both buyers and sellers, providing a centralized platform where individuals can effortlessly connect to buy, rent, or sell their vehicles. Whether you're looking for a new car, renting one for a special occasion, or selling your current vehicle, Carbank offers a seamless experience tailored to your needs.</p>
                     </div>
                 </div>
-                <div class="w-full md:w-1/3 p-4">
+                <div class="w-full md:w-1/4 p-4">
                     <div class="p-6 bg-white rounded-lg shadow-xl">
                         <div class="flex items-center justify-center">
                             <i class="fas fa-gifts text-blue-500 text-3xl"></i>
                         </div>
                         <h3 class="mt-5 text-xl font-bold text-gray-800">Special Occasion Rentals</h3>
-                        <p class="mt-3 text-gray-600">We specialize in making every special occasion extraordinary by offering a diverse fleet of rental cars. From weddings to corporate events, Carbank ensures that you find the perfect vehicle to complement your unique moments.</p>
+                        <p class="mt-3 text-gray-600">We specialize in making every special occasion extraordinary by offering a diverse fleet of rental cars. From weddings to corporate events, Carbank ensures that you find the perfect vehicle to complement your unique moments. Our dedicated team works tirelessly to provide personalized service, ensuring that your rental experience exceeds your expectations.</p>
                     </div>
                 </div>
-                <div class="w-full md:w-1/3 p-4">
+                <div class="w-full md:w-1/4 p-4">
                     <div class="p-6 bg-white rounded-lg shadow-xl">
                         <div class="flex items-center justify-center">
                             <i class="fas fa-sync-alt text-blue-500 text-3xl"></i>
                         </div>
-                        <h3 class="mt-5 text-xl font-bold text-gray-800">Streamlined Transactions</h3>
-                        <p class="mt-3 text-gray-600">Carbank streamlines the buying and selling process, ensuring a hassle-free experience for our users. Our user-friendly interface and secure transactions make every interaction on our platform efficient and enjoyable.</p>
+                        <h3 class="mt-5 text-xl font-bold text-gray-800">Ease of Transactions</h3>
+                        <p class="mt-3 text-gray-600">Carbank streamlines the buying and selling process, ensuring a hassle-free experience for our users. Our user-friendly interface and secure transactions make every interaction on our platform efficient and enjoyable. With a commitment to transparency and customer satisfaction, we strive to provide a seamless journey for all our users from start to finish.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- How It Works Section -->
-    <div class="container mx-auto px-4 py-20">
+    <div id='how-it-works' class="container mx-auto px-4 py-20">
+        <div class="text-center">
+            <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded mb-10">HOW IT WORKS</button>
+        </div>
         <h2 class="text-3xl font-bold text-center text-gray-800">Rent with following 4 working steps</h2>
         <div class="mt-10 flex flex-wrap justify-center space-x-0 md:space-x-10">
-            <div class="w-full md:w-1/4 p-4">
+            <div class="w-full md:w-1/5 p-4">
                 <div class="p-6 bg-white rounded-lg shadow-xl text-center">
                     <div class="flex items-center justify-center">
                         <i class="fas fa-map-marker-alt text-blue-500 text-3xl"></i>
                     </div>
                     <h3 class="mt-5 text-xl font-bold text-gray-800">Choose location</h3>
-                    <p class="mt-3 text-gray-600">Choose your and find your best car</p>
+                    <p class="mt-3 text-gray-600">Discover the ideal vehicle that perfectly matches your needs.</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/4 p-4">
+            <div class="w-full md:w-1/5 p-4">
                 <div class="p-6 bg-white rounded-lg shadow-xl text-center">
                     <div class="flex items-center justify-center">
                         <i class="fas fa-calendar-alt text-blue-500 text-3xl"></i>
                     </div>
                     <h3 class="mt-5 text-xl font-bold text-gray-800">Pick-up date and time</h3>
-                    <p class="mt-3 text-gray-600">Select your pick up date and time to book your car</p>
+                    <p class="mt-3 text-gray-600">Select your pick up date to book your car</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/4 p-4">
+            <div class="w-full md:w-1/5 p-4">
                 <div class="p-6 bg-white rounded-lg shadow-xl text-center">
                     <div class="flex items-center justify-center">
                         <i class="fas fa-file-alt text-blue-500 text-3xl"></i>
                     </div>
                     <h3 class="mt-5 text-xl font-bold text-gray-800">Documentation</h3>
-                    <p class="mt-3 text-gray-600">Verify all of your documents and registration</p>
+                    <p class="mt-3 text-gray-600">Verify all of your documents for registration</p>
                 </div>
             </div>
-            <div class="w-full md:w-1/4 p-4">
+            <div class="w-full md:w-1/5 p-4">
                 <div class="p-6 bg-white rounded-lg shadow-xl text-center">
                     <div class="flex items-center justify-center">
                         <i class="fas fa-car text-blue-500 text-3xl"></i>
@@ -153,15 +168,57 @@
         </div>
     </div>
 
+    <!-- Why choose us Section -->
+    <div id='why-choose-us' class="px-10 py-20">
+        <div class="flex justify-between items-center">
+            <div class="flex-1">
+                <img src="swift.png" alt="Red car model SWIFT on a blue gradient background" class="w-4/4">
+            </div>
+            <div class="flex-1 text-black">
+                <button class="bg-white text-blue-500 font-semibold py-2 px-4 rounded mb-10">WHY CHOOSE US</button>
+                <h2 class="text-5xl font-bold mb-10">We offer the best experience with our rental deals</h2>
+                <div class="space-y-6">
+                    <div class="flex items-center">
+                        <i class="fas fa-dollar-sign bg-white text-blue-500 rounded-full p-3 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold">Best price guaranteed</h3>
+                            <p>Find a lower price? We'll refund you 100% of the difference.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-shield-alt bg-white text-blue-500 rounded-full p-3 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold">Quality Assurance</h3>
+                            <p>Every vehicle listed on Carbank undergoes a thorough inspection, ensuring quality and reliability.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-clock bg-white text-blue-500 rounded-full p-3 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold">24 hour car delivery</h3>
+                            <p>Book your car anytime and we will deliver it directly to you.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-headset bg-white text-blue-500 rounded-full p-3 mr-4"></i>
+                        <div>
+                            <h3 class="text-xl font-semibold">24/7 technical support</h3>
+                            <p>Have a question? Contact Rentcars support any time when you have a problem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Rental Deals Section -->
-    <div class="bg-gray-100">
-        <div class="container mx-auto px-4 py-20">
+        <div id='popular-deals' class="container mx-auto px-4 py-20">
             <h2 class="text-3xl font-bold text-center text-gray-800">Most popular cars rental deals</h2>
             <div class="mt-10 flex flex-wrap justify-center space-x-0 md:space-x-6">
                 <!-- Repeat this block for each car deal -->
                 <div class="w-full md:w-1/4 p-4">
                     <div class="p-6 bg-white rounded-lg shadow-xl">
-                        <img src="https://placehold.co/300x200" alt="Car image" class="rounded-lg">
+                        <img src="jaguar.png" alt="Car image" class="rounded-lg">
                         <h3 class="mt-5 text-xl font-bold text-gray-800">Jaguar XE P250</h3>
                         <p class="text-gray-600">4.8 (251 reviews)</p>
                         <p class="mt-3 text-gray-600">Automatic | Petrol | Auto Air Conditioning | 4 Doors</p>
@@ -169,24 +226,46 @@
                         <button class="mt-4 w-full bg-blue-500 text-white px-6 py-2 rounded shadow">Rent Now</button>
                     </div>
                 </div>
+
+                <div class="w-full md:w-1/4 p-4">
+                    <div class="p-6 bg-white rounded-lg shadow-xl">
+                        <img src="jaguar.png" alt="Car image" class="rounded-lg">
+                        <h3 class="mt-5 text-xl font-bold text-gray-800">Jaguar XE P250</h3>
+                        <p class="text-gray-600">4.8 (251 reviews)</p>
+                        <p class="mt-3 text-gray-600">Automatic | Petrol | Auto Air Conditioning | 4 Doors</p>
+                        <p class="mt-5 text-xl font-bold text-gray-800">$1,800/day</p>
+                        <button class="mt-4 w-full bg-blue-500 text-white px-6 py-2 rounded shadow">Rent Now</button>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/4 p-4">
+                    <div class="p-6 bg-white rounded-lg shadow-xl">
+                        <img src="jaguar.png" alt="Car image" class="rounded-lg">
+                        <h3 class="mt-5 text-xl font-bold text-gray-800">Jaguar XE P250</h3>
+                        <p class="text-gray-600">4.8 (251 reviews)</p>
+                        <p class="mt-3 text-gray-600">Automatic | Petrol | Auto Air Conditioning | 4 Doors</p>
+                        <p class="mt-5 text-xl font-bold text-gray-800">$1,800/day</p>
+                        <button class="mt-4 w-full bg-blue-500 text-white px-6 py-2 rounded shadow">Rent Now</button>
+                    </div>
+                </div>
+
                 <!-- ... other car deals ... -->
             </div>
         </div>
-    </div>
 
     <!-- Footer -->
-    <footer class="bg-white">
+    <footer class="text-white" style="background-color: #051C34;">
         <div class="container mx-auto px-4 py-10">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full md:w-1/4">
                     <span class="font-bold text-lg">CarBank</span>
-                    <p class="mt-3 text-gray-600">506A, 506B, Glenallen, Alaska, 99588, Mumbai</p>
-                    <p class="text-gray-600">+603 7843 2132</p>
-                    <p class="text-gray-600">support@travelsolution.in</p>
+                    <p class="mt-3 text-white-600">506A, 506B, Glenallen, Alaska, 99588, Mumbai</p>
+                    <p class="text-white-600">+603 7843 2132</p>
+                    <p class="text-white-600">support@travelsolution.in</p>
                 </div>
                 <div class="w-full md:w-1/4 mt-6 md:mt-0">
                     <span class="font-bold text-lg">Our Product</span>
-                    <ul class="mt-3 text-gray-600">
+                    <ul class="mt-3 text-white-600">
                         <li>Career</li>
                         <li>Packages</li>
                         <li>Car</li>
@@ -196,7 +275,7 @@
                 </div>
                 <div class="w-full md:w-1/4 mt-6 md:mt-0">
                     <span class="font-bold text-lg">Resources</span>
-                    <ul class="mt-3 text-gray-600">
+                    <ul class="mt-3 text-white-600">
                         <li>Download</li>
                         <li>Help Centre</li>
                         <li>Guides</li>
@@ -206,7 +285,7 @@
                 </div>
                 <div class="w-full md:w-1/4 mt-6 md:mt-0">
                     <span class="font-bold text-lg">About CarBank</span>
-                    <ul class="mt-3 text-gray-600">
+                    <ul class="mt-3 text-white-600">
                         <li>Why choose us</li>
                         <li>Our Story</li>
                         <li>Investor Relations</li>
@@ -216,14 +295,53 @@
                 </div>
             </div>
             <div class="flex justify-between items-center mt-10 border-t pt-5">
-                <p class="text-gray-600">Copyright 2024 - CarBank All Rights Reserved</p>
+                <p class="text-white-600">Copyright 2024 - CarBank All Rights Reserved</p>
                 <div class="flex">
-                    <a href="#" class="text-gray-600 mx-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-gray-600 mx-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-gray-600 mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white-600 mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white-600 mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white-600 mx-2"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        // Smooth scroll function
+        function smoothScroll(target, duration) {
+            var targetElement = document.querySelector(target);
+            var targetPosition = targetElement.offsetTop;
+            var startPosition = window.pageYOffset;
+            var distance = targetPosition - startPosition;
+            var startTime = null;
+        
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                var timeElapsed = currentTime - startTime;
+                var run = ease(timeElapsed, startPosition, distance, duration);
+                window.scrollTo(0, run);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            }
+        
+            function ease(t, b, c, d) {
+                t /= d / 2;
+                if (t < 1) return c / 2 * t * t + b;
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            }
+        
+            requestAnimationFrame(animation);
+        }
+        
+        // Smooth scroll on navbar link click
+        var navbarLinks = document.querySelectorAll('nav a[href^="#"]');
+        
+        navbarLinks.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                var targetId = this.getAttribute('href');
+                smoothScroll(targetId, 1000);
+            });
+        });
+    </script>
 </body>
 </html>
